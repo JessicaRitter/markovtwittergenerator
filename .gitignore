@@ -1,0 +1,8 @@
+*.sh
+ascii_values.py
+cv_file.txt
+cv_histogram.py
+friends.py
+*.pyc
+*.DS_Store
+*env

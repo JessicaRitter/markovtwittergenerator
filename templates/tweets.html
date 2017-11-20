@@ -1,0 +1,18 @@
+<html>
+<head>
+    <link rel="stylesheet"
+          href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/css/site.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Here's {{ username }}'s markov generated tweet:</h3>
+        {{ markovtweet }}
+
+        <p>and here's the chains it was generated from:</p>
+        {{ chains }}        
+    </div>
+
+</body>
+</html>
